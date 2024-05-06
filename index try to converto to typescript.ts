@@ -104,7 +104,7 @@ const myDeck = [
 // var combosInfo = []
 class Combo {
   name: string
-  cardRarity: number
+  rarity: number
   comboCards: string[]
   power?: number
 } 
@@ -147,7 +147,7 @@ async function getAllCombos() {
 
         let combo : Combo = {
           name: cells[2],
-          cardRarity: cells[3],
+          rarity: cells[3],
           comboCards: [cells[0], cells[1]]
         }
 
