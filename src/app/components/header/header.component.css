@@ -1,13 +1,14 @@
 header {
+  background: #4a235a; /* Cor de fundo */
+  padding: 10px;
+  color: #ffffff;
+}
+nav ul {
+  list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #282c34;
-  color: white;
+  justify-content: space-around;
 }
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
 }

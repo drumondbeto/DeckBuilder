@@ -4,3 +4,42 @@
   display: flex;
   flex-direction: column;
 }
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #f4e9de;
+  color: #3e2723;
+}
+
+.navbar {
+  background: linear-gradient(145deg, #a1887f, #6d4c41);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-carousel {
+  background-image: url("/assets/images/background.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.button {
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

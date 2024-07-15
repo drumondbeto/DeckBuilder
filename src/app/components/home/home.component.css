@@ -1,4 +1,23 @@
-main {
-  padding: 20px;
+.home-background {
+  height: 100vh;
+  background-image: url("../../../assets/images/fantasy-town-carousel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.content {
   text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content h1,
+.content p {
+  color: white;
+}
+button {
+  background-color: #512e5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
